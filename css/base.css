@@ -1,17 +1,10 @@
 /* 全局样式 */
-*,
-::before,
-::after
-{
-    padding: 0;
-    margin: 0;
-    /* 清除移动端默认的点击亮度效果 */
-    -webkit-tap-highlight-color: transparent;
-
-    -webkit-box-sizing: border-box;/* 兼容 */
-    box-sizing: border-box;
+*{
+    margin: 0%;
+    padding: 0%;
 }
 body{
+    display: flex;
     font-size: 14px;
     font-family:"微软雅黑",sans-serif;
     color: #333;
