@@ -1,34 +1,35 @@
+/* 搜索栏 */
 .first_header{
-    padding: 5px 20px 5px 20px;
-   position: fixed;
-   width: 100%;
-   background-color:#ff852a;
-   z-index: 1000;
-   
- 
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ff852a;
+    display: inline-flex;
+    min-width: 300px;
+	max-width: 100%;
 }
-.one_header_one
-{
-    display: flex;
-    position: absolute;
-    border: 1px solid rgb(7, 4, 4);
-    border-radius: 5px;
-    width: 1200px;
-    height: 20px;
-    padding: 2px 0px;
-    margin: 0% auto;
+.one_header_one{
+    position: relative;
+    border: 1px solid orangered;
+    background-color: orangered;
+    width: 100%;
+    padding: 8px 10px;
+    margin: 5px;
+    border-radius: 10px;
     text-align: center;
 }
-.one_header_one .placeholder{
-    
-}
-.first_header .logo{
-    float: left;
-    padding-left: 14px;
-    margin-right: 39px;
-    width: 174px;
-}
-.words{
+/* 搜索栏 */
 
+/* 轮播图 */
+.imagesA{
+    margin-top: 40px;
 }
+.imagesA img{
+    height: 300px;
+    width: 1456px;
+}
+/* 轮播图 */
 
