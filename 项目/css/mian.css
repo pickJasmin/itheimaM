@@ -7,7 +7,7 @@
     width: 100%;
     z-index: 1000;
     background-color: #ff852a;
-    display: inline-flex;
+    display:flex;
     min-width: 300px;
 	max-width: 100%;
 }
@@ -28,8 +28,8 @@
     margin-top: 40px;
 }
 .imagesA img{
-    height: 300px;
-    width: 1456px;
+    
+    width: 240%;
 }
 /* 轮播图 */
 
