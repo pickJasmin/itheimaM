@@ -21,15 +21,37 @@
     margin: 5px;
     border-radius: 10px;
     text-align: center;
+    overflow: hidden;
 }
 /* 搜索栏 */
 
 /* 轮播图 */
-.imagesA{
+.banner{
+    display: inline-flex;
     margin-top: 40px;
+}
+.imagesA{
+    
 }
 .imagesA img{
     width: 240%;
 }
 /* 轮播图 */
 
+/* 导航栏 */
+.first_nav{
+    background-color: #ff852a;
+    margin: 520px  -600px;
+    display: inline-flex;
+    border: 1px solid black;
+    width: 1500px;
+    min-width: 300px;
+	max-width: 100%;
+}
+.first_nav_p{
+    text-align: center;
+    color: black;
+    font: 20px/15px "微软雅黑";
+    padding-top: 10px;
+}
+/* 导航栏 */
